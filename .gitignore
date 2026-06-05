@@ -1,0 +1,23 @@
+# Environnements virtuels
+venv/
+.venv/
+env/
+
+# Caches Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Fichiers d'export generes
+exports/*
+!exports/.gitkeep
+
+# Systeme / editeurs
+.DS_Store
+.idea/
+.vscode/
+*.log

@@ -1,0 +1,1 @@
+# Ressources statiques (logos, images...)

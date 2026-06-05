@@ -1,0 +1,10 @@
+streamlit>=1.40
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+plotly>=5.20
+openpyxl>=3.1
+# Optionnel : export PNG des graphiques Plotly
+kaleido>=0.2
+# Optionnel : meilleur rendu des tableaux Markdown dans le rapport
+tabulate>=0.9

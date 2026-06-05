@@ -1,0 +1,21 @@
+# Configuration Streamlit
+# ------------------------
+# showSidebarNavigation = false : on desactive la navigation multipage
+# automatique generee a partir du dossier pages/, car l'application utilise
+# sa propre barre laterale personnalisee (voir app.py).
+
+[client]
+showSidebarNavigation = false
+toolbarMode = "minimal"
+
+# Theme medical clair, calme et epure (teal + bleu doux + blancs)
+[theme]
+base = "light"
+primaryColor = "#0E7C7B"
+backgroundColor = "#F5F8FA"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1F2D3D"
+font = "sans serif"
+
+[server]
+maxUploadSize = 500
